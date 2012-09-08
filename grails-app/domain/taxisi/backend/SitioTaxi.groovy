@@ -1,6 +1,7 @@
 package taxisi.backend
 
 class SitioTaxi {
+    static expose = 'sitioTaxi'
 
 	String latitude
 	String longitude

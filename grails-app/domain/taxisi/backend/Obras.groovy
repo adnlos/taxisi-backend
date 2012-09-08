@@ -1,6 +1,7 @@
 package taxisi.backend
 
 class Obras {
+    static expose = 'obras'
 
 	String latitude
 	String longitude

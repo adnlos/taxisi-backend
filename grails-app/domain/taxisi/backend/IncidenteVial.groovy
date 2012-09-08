@@ -1,6 +1,7 @@
 package taxisi.backend
 
 class IncidenteVial {
+    static expose = 'incidenteVial'
 
 	String latitude
 	String longitude
