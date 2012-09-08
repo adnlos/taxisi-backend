@@ -1,6 +1,7 @@
 package taxisi.backend
 
 class Usuario  {
+    static expose = 'usuario'
 
 	String nick
 	String password

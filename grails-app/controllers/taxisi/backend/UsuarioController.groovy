@@ -1,6 +1,7 @@
 package taxisi.backend
 
 import org.springframework.dao.DataIntegrityViolationException
+import grails.converters.JSON
 
 class UsuarioController {
 
@@ -98,5 +99,26 @@ class UsuarioController {
             flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'usuario.label', default: 'Usuario'), id])
             redirect(action: "show", id: id)
         }
+    }
+
+    private retrieveRecord() {
+        def result = [ success: true ]
+        def status = 200
+
+        def obj = Usuario.findByNick(params.usr)
+        if (obj) {
+            result.data = obj
+        } else {
+            result.success = false
+            result.message = "User with nick=${params.usr} not found"
+            status = 404
+        }
+
+        [ result: result, status: status ]
+    }
+
+    def login = {
+        def data = retrieveRecord()
+        render text: data.result as JSON, contentType: 'application/json', status: data.status
     }
 }

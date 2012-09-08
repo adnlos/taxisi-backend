@@ -1,3 +1,6 @@
+import org.codehaus.groovy.grails.commons.ConfigurationHolder
+import org.grails.plugins.rest.JSONApiRegistry
+
 class UrlMappings {
 
 	static mappings = {
@@ -9,5 +12,13 @@ class UrlMappings {
 
 		"/"(view:"/index")
 		"500"(view:'/error')
+
+        def config = ConfigurationHolder.config.grails.'json-rest-api'
+        def root = config.root ? config.root : '/api'
+
+        "${root}/usuario/login/$usr/$pass" (controller: 'usuario') {
+            entity = { JSONApiRegistry.registry[params.domain] }
+            action = [ GET: 'login']
+        }
 	}
 }
