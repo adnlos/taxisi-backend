@@ -6,9 +6,16 @@ class Taxi {
 	String longitude
 	String tipo
 	String placas	
-	SitioTaxi sitioTaxi
+	static belongsTo = [sitioTaxi:SitioTaxi]
 
     static constraints = {
+    	latitude blank:false
+    	longitude blank:false
+    	placas blank:false
     	
+    }
+
+    String toString(){
+        return "${placas} ${sitioTaxi}"
     }
 }

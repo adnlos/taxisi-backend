@@ -5,8 +5,12 @@ class Usuario  {
 	String nick
 	String password
 	
+	static constraints = {
+    	nick blank:false
+    	password blank:false 
+    }
 
-    static constraints = {
-
+    String toString(){
+        return "${nick}"
     }
 }

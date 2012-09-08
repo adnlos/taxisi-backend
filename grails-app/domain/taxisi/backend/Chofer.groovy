@@ -1,6 +1,6 @@
 package taxisi.backend
 
-class Chofer {
+class Chofer extends Usuario{
 
 	String nombre
 	String apellido
@@ -13,5 +13,15 @@ class Chofer {
 
 
     static constraints = {
+    	nombre blank:false
+    	apellido blank:false
+    	licencia blank:false
+    	celular blank:false
+    	email email:true
+
+    }
+
+    String toString(){
+        return "${nombre} ${apellido}"
     }
 }

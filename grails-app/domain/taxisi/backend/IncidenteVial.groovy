@@ -6,5 +6,7 @@ class IncidenteVial {
 	String longitude
 
     static constraints = {
+    	latitude blank:false
+    	longitude blank:false
     }
 }
