@@ -4,9 +4,8 @@ stacktrace.log
 target
 .classpath
 .project
-build.xml
+#build.xml
 .classpath
 .project
-DataSource.groovy
-devDb.h2.db
+#devDb.h2.db
 .settings
