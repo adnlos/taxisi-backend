@@ -1,40 +1,34 @@
 import taxisi.backend.Obras
 import taxisi.backend.IncidenteVial
 import taxisi.backend.SitioTaxi
+import kml.KmlParser
 
 class BootStrap {
 
     def init = { servletContext ->
 
-        Obras obra = new Obras(latitude:"10",longitude: "20")
-        obra.save()
+        def file = '/Users/israel/Downloads/ALESTRA-LCE.kml'
+        //def file = '/Users/israel/Downloads/CABLEVISION-LCE.kml'
 
-        obra = new Obras(latitude:"10",longitude: "20")
-        obra.save()
+        KmlParser parser = new KmlParser()
+        def points = parser.parse(file)
 
-        obra = new Obras(latitude:"10",longitude: "20")
-        obra.save()
+        points.each {point ->
 
-        obra = new Obras(latitude:"10",longitude: "20")
-        obra.save()
+            Obras obra = new Obras(latitude:point.latitude.toString(),longitude: point.longitude.toString())
+            obra.save()
+        }
 
-        obra = new Obras(latitude:"10",longitude: "20")
-        obra.save()
+        file = '/Users/israel/Downloads/CABLEVISION-LCE.kml'
+        parser = new KmlParser()
+        points = parser.parse(file)
 
-        obra = new Obras(latitude:"10",longitude: "20")
-        obra.save()
+        points.each {point ->
 
-        IncidenteVial incidente = new IncidenteVial(latitude:"20",longitude: "40")
-        incidente.save()
+            IncidenteVial incidente = new IncidenteVial(latitude:point.latitude.toString(),longitude: point.longitude.toString())
+            incidente.save()
+        }
 
-        incidente = new IncidenteVial(latitude:"20",longitude: "40")
-        incidente.save()
-
-        incidente = new IncidenteVial(latitude:"20",longitude: "40")
-        incidente.save()
-
-        incidente = new IncidenteVial(latitude:"20",longitude: "40")
-        incidente.save()
 
         SitioTaxi sitio = new SitioTaxi(latitude:"50",longitude: "60", telefono:"5555-4444",nombre: "Super Taxis")
         sitio.save()
