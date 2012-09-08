@@ -1,0 +1,11 @@
+#gitIgnore
+.svn
+stacktrace.log
+target
+.classpath
+.project
+build.xml
+.classpath
+.project
+DataSource.groovy
+devDb.h2.db
