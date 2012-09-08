@@ -1,6 +1,8 @@
 package taxisi.backend
 
 import org.springframework.dao.DataIntegrityViolationException
+import kml.KmlParser
+import kml.Point
 
 class ObrasController {
 
@@ -98,5 +100,20 @@ class ObrasController {
             flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'obras.label', default: 'Obras'), id])
             redirect(action: "show", id: id)
         }
+    }
+
+    def load(){
+        def file = '/Users/israel/Downloads/ALESTRA-LCE.kml'
+        //def file = '/Users/israel/Downloads/CABLEVISION-LCE.kml'
+
+        KmlParser parser = new KmlParser()
+        def points = parser.parse(file)
+
+        points.each {point ->
+
+            render point.toString()+"<br>"
+        }
+
+
     }
 }

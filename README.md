@@ -6,4 +6,4 @@ http://localhost:8080/taxisi-backend/api/obras
 
 http://localhost:8080/taxisi-backend/api/incidenteVial
 
-
+http://localhost:8080/taxisi-backend/api/sitioTaxi
