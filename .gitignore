@@ -7,6 +7,5 @@ target
 build.xml
 .classpath
 .project
-DataSource.groovy
 devDb.h2.db
 .settings
