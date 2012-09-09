@@ -15,7 +15,6 @@ class KmlParser {
 
         coordinates.each {point ->
             points << new Point( point.text() )
-            //println "*coordinates: "+point
         }
 
         return points;
