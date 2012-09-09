@@ -8,8 +8,9 @@ import taxisi.backend.Taxi
 class BootStrap {
 
     def init = { servletContext ->
+        def baseDir ='/Users/israel/development/grails/CiudadMovil/data/'
 
-        def file = '/Users/israel/Downloads/ALESTRA-LCE.kml'
+        def file = baseDir+ 'ALESTRA-LCE.kml'
         //def file = '/Users/israel/Downloads/CABLEVISION-LCE.kml'
 
         KmlParser parser = new KmlParser()
@@ -21,7 +22,7 @@ class BootStrap {
             obra.save()
         }
 
-        file = '/Users/israel/Downloads/CABLEVISION-LCE.kml'
+        file = baseDir+ 'CABLEVISION-LCE.kml'
         parser = new KmlParser()
         points = parser.parse(file)
 
@@ -31,21 +32,24 @@ class BootStrap {
             incidente.save()
         }
 
-        file = '/Users/israel/Downloads/INFRAESTRUCTURAURBANA-EscuelasPublicas-Cuauhtemoc.kml'
+        file = baseDir+ 'INFRAESTRUCTURAURBANA-EscuelasPublicas-Cuauhtemoc.kml'
         parser = new KmlParser()
         points = parser.parse(file)
 
+        int i=0
         points.each {point ->
-
+            i++
             Taxi taxi = new Taxi(latitude:point.latitude.toString(),longitude: point.longitude.toString())
-            taxi.save()
+
+            if (i  <10)
+                taxi.save()
         }
 
 
-        SitioTaxi sitio = new SitioTaxi(latitude:"50",longitude: "60", telefono:"5555-4444",nombre: "Super Taxis")
+        SitioTaxi sitio = new SitioTaxi(latitude:"19.41841899999204",longitude: "-99.17086400005815", telefono:"5555-4444",nombre: "Super Taxis")
         sitio.save()
 
-        sitio = new SitioTaxi(latitude:"60",longitude: "860", telefono:"5555-4444",nombre: "Mis taxis de siempre")
+        sitio = new SitioTaxi(latitude:"19.439546",longitude: "-99.136686", telefono:"5555-4444",nombre: "Mis taxis de siempre")
         sitio.save()
 
         Usuario usuario = new Usuario(nick:'israel',password: 'xyz',role: 'USUARIO')

@@ -2,6 +2,10 @@ package taxisi.backend
 
 class Chofer extends Usuario{
 
+    String messageType = "CHOFER";
+
+    static transients = ['messageType']
+
 	String nombre
 	String apellido
 	String licencia

@@ -3,6 +3,10 @@ package taxisi.backend
 class Taxi {
     static expose = 'taxi'
 
+    String messageType = "TAXI";
+
+    static transients = ['messageType']
+
 	String latitude
 	String longitude
 	String tipo = 'SITIO'

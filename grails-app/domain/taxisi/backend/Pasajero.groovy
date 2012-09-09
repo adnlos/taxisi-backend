@@ -3,6 +3,10 @@ package taxisi.backend
 class Pasajero extends Usuario {
     static expose = 'pasajero'
 
+    String messageType = "PASAJERO";
+
+    static transients = ['messageType']
+
 	String latitude
 	String longitude
 	String nombre
