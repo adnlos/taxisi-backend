@@ -1,6 +1,7 @@
 package taxisi.backend
 
 import org.springframework.dao.DataIntegrityViolationException
+import grails.converters.JSON
 
 class PasajeroController {
 
@@ -98,5 +99,21 @@ class PasajeroController {
             flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'pasajero.label', default: 'Pasajero'), id])
             redirect(action: "show", id: id)
         }
+    }
+
+    private retrieveRecord() {
+        def result = [ success: true ]
+        def status = 200
+
+        def obj = Pasajero.findAll()
+
+        result.data = obj
+        result.message = null
+        [ result: result, status: status ]
+    }
+
+    def ubicacion = {
+        def data = retrieveRecord()
+        render text: data.result as JSON, contentType: 'application/json', status: data.status
     }
 }

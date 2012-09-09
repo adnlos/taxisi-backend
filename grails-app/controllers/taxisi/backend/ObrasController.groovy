@@ -3,6 +3,7 @@ package taxisi.backend
 import org.springframework.dao.DataIntegrityViolationException
 import kml.KmlParser
 import kml.Point
+import grails.converters.JSON
 
 class ObrasController {
 
@@ -113,7 +114,21 @@ class ObrasController {
 
             render point.toString()+"<br>"
         }
+    }
 
+    private retrieveRecord() {
+        def result = [ success: true ]
+        def status = 200
 
+        def obj = Obras.findAll()
+
+        result.data = obj
+        result.message = null
+        [ result: result, status: status ]
+    }
+
+    def ubicacion = {
+        def data = retrieveRecord()
+        render text: data.result as JSON, contentType: 'application/json', status: data.status
     }
 }

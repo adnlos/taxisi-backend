@@ -105,13 +105,17 @@ class UsuarioController {
         def result = [ success: true ]
         def status = 200
 
+        //falta validacion de parametros nulos
+
         def obj = Usuario.findByNick(params.usr)
         if (obj) {
             result.data = obj
+            result.message = null
         } else {
             result.success = false
             result.message = "User with nick=${params.usr} not found"
-            status = 404
+            result.data = null
+            status = 200
         }
 
         [ result: result, status: status ]

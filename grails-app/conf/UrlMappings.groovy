@@ -20,5 +20,30 @@ class UrlMappings {
             entity = { JSONApiRegistry.registry[params.domain] }
             action = [ GET: 'login']
         }
+
+        "${root}/taxi/ubicacion/$latitude/$longitude" (controller: 'taxi') {
+            entity = { JSONApiRegistry.registry[params.domain] }
+            action = [ GET: 'ubicacion']
+        }
+
+        "${root}/pasajero/ubicacion/$latitude/$longitude" (controller: 'pasajero') {
+            entity = { JSONApiRegistry.registry[params.domain] }
+            action = [ GET: 'ubicacion']
+        }
+
+        "${root}/sitioTaxi/ubicacion/$latitude/$longitude" (controller: 'sitioTaxi') {
+            entity = { JSONApiRegistry.registry[params.domain] }
+            action = [ GET: 'ubicacion']
+        }
+
+        "${root}/obras/ubicacion/$latitude/$longitude" (controller: 'obras') {
+            entity = { JSONApiRegistry.registry[params.domain] }
+            action = [ GET: 'ubicacion']
+        }
+
+        "${root}/incidenteVial/ubicacion/$latitude/$longitude" (controller: 'incidenteVial') {
+            entity = { JSONApiRegistry.registry[params.domain] }
+            action = [ GET: 'ubicacion']
+        }
 	}
 }
