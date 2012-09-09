@@ -116,4 +116,9 @@ class PasajeroController {
         def data = retrieveRecord()
         render text: data.result as JSON, contentType: 'application/json', status: data.status
     }
+
+    def compartir = {
+        def data = retrieveRecord()
+        render text: data.result as JSON, contentType: 'application/json', status: data.status
+    }
 }

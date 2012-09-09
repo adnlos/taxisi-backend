@@ -3,6 +3,10 @@ package taxisi.backend
 class Usuario  {
     static expose = 'usuario'
 
+    String messageType = "USUARIO";
+
+    static transients = ['messageType']
+
 	String nick
 	String password
 

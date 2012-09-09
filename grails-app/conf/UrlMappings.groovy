@@ -31,6 +31,11 @@ class UrlMappings {
             action = [ GET: 'ubicacion']
         }
 
+        "${root}/pasajero/compartir/$latitude/$longitude" (controller: 'pasajero') {
+            entity = { JSONApiRegistry.registry[params.domain] }
+            action = [ GET: 'ubicacion']
+        }
+
         "${root}/sitioTaxi/ubicacion/$latitude/$longitude" (controller: 'sitioTaxi') {
             entity = { JSONApiRegistry.registry[params.domain] }
             action = [ GET: 'ubicacion']
