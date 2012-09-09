@@ -9,7 +9,7 @@ class BootStrap {
 
     def init = { servletContext ->
 
-        def file = '/Users/israel/Downloads/ALESTRA-LCE.kml'
+        def file = '/Users/adnlos/Documents/grails/taxisi-backend/data/ALESTRA-LCE.kml'
         //def file = '/Users/israel/Downloads/CABLEVISION-LCE.kml'
 
         KmlParser parser = new KmlParser()
@@ -21,7 +21,7 @@ class BootStrap {
             obra.save()
         }
 
-        file = '/Users/israel/Downloads/CABLEVISION-LCE.kml'
+        file = '/Users/adnlos/Documents/grails/taxisi-backend/data/CABLEVISION-LCE.kml'
         parser = new KmlParser()
         points = parser.parse(file)
 
@@ -31,7 +31,7 @@ class BootStrap {
             incidente.save()
         }
 
-        file = '/Users/israel/Downloads/INFRAESTRUCTURAURBANA-EscuelasPublicas-Cuauhtemoc.kml'
+        file = '/Users/adnlos/Documents/grails/taxisi-backend/data/INFRAESTRUCTURAURBANA-EscuelasPublicas-Cuauhtemoc.kml'
         parser = new KmlParser()
         points = parser.parse(file)
 
