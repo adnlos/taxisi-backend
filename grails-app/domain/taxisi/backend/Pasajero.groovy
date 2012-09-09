@@ -1,6 +1,7 @@
 package taxisi.backend
 
 class Pasajero extends Usuario {
+    static expose = 'pasajero'
 
 	String latitude
 	String longitude

@@ -42,3 +42,11 @@
 	<g:textField name="tipo" value="${taxiInstance?.tipo}"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: taxiInstance, field: 'vehiculo', 'error')} ">
+	<label for="vehiculo">
+		<g:message code="taxi.vehiculo.label" default="Vehiculo" />
+		
+	</label>
+	<g:textField name="vehiculo" value="${taxiInstance?.vehiculo}"/>
+</div>
+

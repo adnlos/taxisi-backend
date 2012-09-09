@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Alestra-LCE.kml</name>
+	<Style id="sh_ylw-pushpin125">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin222">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin23</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin105">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin44">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin136</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin105</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin16">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin179">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin65">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin008">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin030</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin179</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin158">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin121">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff003600</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1616">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2316">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin136">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin233">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin507">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin87">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin507</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin36</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin63">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin518">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin63</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin65</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin222</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin309">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2316</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin125</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin38">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6111</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin121</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1282">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin63">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin555">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin24">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin36">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin122">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin555</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1282</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin2043">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin158">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1916">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin192">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2043</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1211</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin030">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin47">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin233</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin63</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1030">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6111">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff003600</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin734">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin158</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin158</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin233">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1616</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1916</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1211">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin23">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin404">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Alestra</name>
+		<Placemark>
+			<name>No. de Oficio DGODU/891/2011, No. de Folio V1-LE/019/10</name>
+			<description>Alestra: Canalización Mario Pani S/N, Colonia Santa Fe Cuajimalpa, Delegación Cuajimalpa</description>
+			<LookAt>
+				<longitude>-99.27713999988227</longitude>
+				<latitude>19.35919699971757</latitude>
+				<altitude>0</altitude>
+				<heading>3.902659864956291e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.000108637217</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin31</styleUrl>
+			<Point>
+				<coordinates>-99.27713999988227,19.35919699971757,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Licencia de Construcción No. LCE/IS/07/2011</name>
+			<description>Alestra: Instalación de Ductos en Javier Barros Sierra y Antonio Dovali, Colonia La Fe, Delegación Álvaro Obregón</description>
+			<styleUrl>#msn_ylw-pushpin38</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-99.26003795525132,19.36745204710009,0 -99.25985069640015,19.3674749302463,0 -99.25906728557565,19.36667049481032,0 -99.25894656243284,19.36618738879158,0 -99.26050430782536,19.36418803131491,0 -99.26060834074607,19.36427997001338,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Licencia de Construcción No. LCE/IS/06/2011</name>
+			<description>Alestra: Instalación de Ductos en Napoles Gandara No. 3111, Colonia Peña Blanca, Delegación Álvaro Obregón</description>
+			<styleUrl>#msn_ylw-pushpin47</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-99.26070344344363,19.37468782315847,0 -99.25992227521991,19.37375775138781,0 -99.26212226154473,19.37217635546559,0 -99.26098547190159,19.37106659422501,0 -99.26134649330734,19.37060270181675,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Licencia de Construcción No. LCE/IS/05/2011</name>
+			<description>Alestra: Instalación de Ductos en Javier Barros Sierra y Carlos Lazo, Colonia la Fe, Delegación Álvaro Obregón</description>
+			<styleUrl>#msn_ylw-pushpin008</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-99.26072210539421,19.36388126441298,0 -99.26217643677444,19.36171987235353,0 -99.26140902493462,19.36119350580909,0 -99.26106725102714,19.36076525555669,0 -99.26094444473493,19.35974666373164,0 -99.26072383893252,19.35853978163859,0 -99.26018414101183,19.35860961218624,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Folder>
+			<name>LIS/14/007/2011 - Intalación Fibra Optica</name>
+			<Placemark>
+				<name>Col. Independencia</name>
+				<LookAt>
+					<longitude>-99.14772583948587</longitude>
+					<latitude>19.3804666195247</latitude>
+					<altitude>0</altitude>
+					<heading>6.705539978338756e-009</heading>
+					<tilt>0</tilt>
+					<range>1393.525828850037</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin734</styleUrl>
+				<Point>
+					<coordinates>-99.1476973148241,19.38037244009549,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Col. San Simón Ticumac</name>
+				<LookAt>
+					<longitude>-99.14423199973675</longitude>
+					<latitude>19.37541199920636</latitude>
+					<altitude>0</altitude>
+					<heading>8.732212877958086e-011</heading>
+					<tilt>0</tilt>
+					<range>2745.020885333617</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin122</styleUrl>
+				<Point>
+					<coordinates>-99.14423199973676,19.37541199920636,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Col. Cd. de los Deportes</name>
+				<LookAt>
+					<longitude>-99.17522875722079</longitude>
+					<latitude>19.37994129304466</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01027924760677258</heading>
+					<tilt>0</tilt>
+					<range>2160.645642090722</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin518</styleUrl>
+				<Point>
+					<coordinates>-99.17951447367102,19.38316591854907,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Col. San Pedro de los Pinos</name>
+				<LookAt>
+					<longitude>-99.18575199986795</longitude>
+					<latitude>19.38804499997077</latitude>
+					<altitude>0</altitude>
+					<heading>4.383241677325428e-011</heading>
+					<tilt>0</tilt>
+					<range>1632.438490552243</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin233</styleUrl>
+				<Point>
+					<coordinates>-99.18575199986793,19.38804499997077,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Col. Del Valle Centro</name>
+				<LookAt>
+					<longitude>-99.16417978011826</longitude>
+					<latitude>19.38231989072703</latitude>
+					<altitude>0</altitude>
+					<heading>0.007158973179778243</heading>
+					<tilt>0</tilt>
+					<range>1772.081917144984</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin192</styleUrl>
+				<Point>
+					<coordinates>-99.1649413454398,19.38172136907214,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Col. Nápoles</name>
+				<LookAt>
+					<longitude>-99.17222321878421</longitude>
+					<latitude>19.39128127366786</latitude>
+					<altitude>0</altitude>
+					<heading>0.004490263241713356</heading>
+					<tilt>0</tilt>
+					<range>1886.794621613416</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin309</styleUrl>
+				<Point>
+					<coordinates>-99.1774475707134,19.39431848141848,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Col. Tlacoquemecatl del Valle</name>
+				<LookAt>
+					<longitude>-99.17122100010846</longitude>
+					<latitude>19.37795200009885</latitude>
+					<altitude>0</altitude>
+					<heading>-3.599195191411152e-011</heading>
+					<tilt>0</tilt>
+					<range>1000.00012367595</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin87</styleUrl>
+				<Point>
+					<coordinates>-99.17466857608457,19.37681655131509,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Col. San jose Insurgentes</name>
+				<LookAt>
+					<longitude>-99.18575199947944</longitude>
+					<latitude>19.36742300017506</latitude>
+					<altitude>0</altitude>
+					<heading>1.726242077670972e-010</heading>
+					<tilt>0</tilt>
+					<range>2745.154316870919</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin44</styleUrl>
+				<Point>
+					<coordinates>-99.18575199947942,19.36742300017506,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>No. de Oficio DGODU/891/2011, No. de Folio V1-LE/041/10</name>
+			<description>Alestra: Canalización en Av. Tamaulipas S/N, Colonia Santa Fe Cuajimalpa, Delegación Cuajimalpa</description>
+			<LookAt>
+				<longitude>-99.29650900005639</longitude>
+				<latitude>19.35684400007465</latitude>
+				<altitude>0</altitude>
+				<heading>-1.870325180434621e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.000518602546</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin404</styleUrl>
+			<Point>
+				<coordinates>-99.29650900005639,19.35684400007465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>No. de Oficio DGODU/891/2011, No. de Folio V1-LE/043/10</name>
+			<description>Alestra: Canalización en Vasco de Quiroga, Carlos Echanove y Prol. V. Hermosa, Delegación Cuajimalpa</description>
+			<LookAt>
+				<longitude>-99.28035464951674</longitude>
+				<latitude>19.36283202910439</latitude>
+				<altitude>0</altitude>
+				<heading>5.088788712769964e-005</heading>
+				<tilt>0</tilt>
+				<range>710.5337544324957</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<Point>
+				<coordinates>-99.28052887410311,19.36101648595561,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

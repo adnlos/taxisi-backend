@@ -18,3 +18,11 @@
 	<g:textField name="password" required="" value="${usuarioInstance?.password}"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'role', 'error')} ">
+	<label for="role">
+		<g:message code="usuario.role.label" default="Role" />
+		
+	</label>
+	<g:select name="role" from="${usuarioInstance.constraints.role.inList}" value="${usuarioInstance?.role}" valueMessagePrefix="usuario.role" noSelection="['': '']"/>
+</div>
+

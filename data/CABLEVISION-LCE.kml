@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CABLEVISION-LCE.kml</name>
+	<StyleMap id="msn_ylw-pushpin292">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin338</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin178">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin917</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin186">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin349">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin81</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin243</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin41">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin200">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin408">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin51">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin114">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin142</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1319">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin151</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin541">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin122">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin243">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin284">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin541</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2615</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin186">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin334">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin51</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin142">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2615">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin315">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin408</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin186</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin435">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin122</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin151">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin104">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin435</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin917">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin338">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin81">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin011">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>LCE Cablevision</name>
+		<Placemark>
+			<name>Licencia de Construcción No. LCE/IS/02/2011</name>
+			<description>Cablevisión: Instalación de Ductos en Constituyentes, Paseo de la Reforma, Prolongación Paseo de la Reforma, Vasco de Quiroga e Isaac Costero, Colonias Carlos C. Madrazo, Bejero, Pueblo Santa Fe, Lomas de Vista Verde, Bélen de las Flores y Peña Blanca, Delegación Álvaro Obregón</description>
+			<styleUrl>#msn_ylw-pushpin178</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-99.23366416292771,19.39458460910881,0 -99.23616439964735,19.39354110878528,0 -99.23772619499462,19.3935553065478,0 -99.23815842212443,19.39340980540644,0 -99.23878974583074,19.39286071221048,0 -99.23894270327169,19.3919729212269,0 -99.23898307785574,19.39118068825577,0 -99.23942262564601,19.38973393454721,0 -99.23962016977535,19.38920791319575,0 -99.24052353698508,19.38849438776978,0 -99.24185891524688,19.38772945735773,0 -99.24322050937673,19.38689347382189,0 -99.24397137890482,19.38549852409753,0 -99.2446062085976,19.38469478930477,0 -99.24605157794785,19.3839874793879,0 -99.24776845975681,19.38282519455194,0 -99.24896698744911,19.38199877963913,0 -99.24976174113012,19.38050387037704,0 -99.25078613722918,19.37988874305717,0 -99.25225711896763,19.3792637517103,0 -99.25370808367789,19.37855426663768,0 -99.25339161033874,19.37783358149054,0 -99.25305281546515,19.37707900147004,0 -99.25188972986642,19.37752161045775,0 -99.24999532409611,19.37817159581219,0 -99.24901655711469,19.37853621636912,0 -99.24886150720248,19.37829227030602,0 -99.24867616642385,19.37819874121108,0 -99.24843186581128,19.37817728451068,0 -99.24823496730397,19.37824887168959,0 -99.24807341359858,19.3784479540135,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Folder>
+			<name>SLIU/008/11/2011/07</name>
+			<Placemark>
+				<name>Licencia de Construcción No. SLIU/008/11/2011/07</name>
+				<description>Cablevisión: Calles Enriqueta y Bondojito, Delegación  Gustavo A. Madero</description>
+				<LookAt>
+					<longitude>-99.11026019239229</longitude>
+					<latitude>19.46817572559829</latitude>
+					<altitude>0</altitude>
+					<heading>-4.706668806736498e-005</heading>
+					<tilt>0</tilt>
+					<range>932.5717839984578</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin186</styleUrl>
+				<Point>
+					<coordinates>-99.11026019239228,19.46817572559829,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Licencia de Construcción No. SLIU/008/11/2011/07</name>
+				<description>Cablevisión: Calles Victoria y Bondojito, Delegación  Gustavo A. Madero</description>
+				<LookAt>
+					<longitude>-99.1101585225296</longitude>
+					<latitude>19.46902840824072</latitude>
+					<altitude>0</altitude>
+					<heading>20.27666620962111</heading>
+					<tilt>0</tilt>
+					<range>970.2911788443004</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1319</styleUrl>
+				<Point>
+					<coordinates>-99.10902958752561,19.46883674532663,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Licencia de Construcción No. SLIU/008/11/2011/07</name>
+				<description>Cablevisión: Calles Norte 70 y Bondojito, Delegación  Gustavo A. Madero</description>
+				<LookAt>
+					<longitude>-99.10638488085631</longitude>
+					<latitude>19.46736544200536</latitude>
+					<altitude>0</altitude>
+					<heading>20.27792379319828</heading>
+					<tilt>0</tilt>
+					<range>718.8458087072206</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin03</styleUrl>
+				<Point>
+					<coordinates>-99.10721687897856,19.46710718587917,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>Licencia de Construcción No. LCE/IS/08/2011</name>
+			<description>Cablevisión: Instalación de Ductos en Paseo de la Reforma, Ernesto J. Piper, México Toluca y Constituyentes la Venta, Colonias Paseo de las Lomas, Vista Hermosa, Carlos A. Madrazo y Bejero, Delegación Álvaro Obregón</description>
+			<styleUrl>#msn_ylw-pushpin104</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-99.25372022154753,19.37866237906997,0 -99.25857086466412,19.37629490455593,0 -99.26069290766934,19.37465059392734,0 -99.26109144244556,19.37509396807812,0 -99.26300768261976,19.37430995032484,0 -99.26418663761857,19.37355142201622,0 -99.26496665333394,19.37279721619964,0 -99.26633250799797,19.37173514671969,0 -99.26653453035544,19.37107149381264,0 -99.2670219466975,19.37024655692527,0 -99.26728601493757,19.36971944905462,0 -99.26753298128857,19.36926431267597,0 -99.26809730688106,19.36883092265457,0 -99.26851525000093,19.36873989749193,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Licencia de Construcción No. LCE/IS/04/2011</name>
+			<description>Cablevisión: Instalación de Ductos en Vasco de Quiroga, Javier Barros Sierra, Fernando Espinoza, Carlos Lazo, Colonias La Fe, Paseo de las Lomas, Gral. Antonio Rosales, Tlayapaca y Peña Blanca, Delegación Álvaro Obregón</description>
+			<styleUrl>#msn_ylw-pushpin349</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-99.25237343795834,19.37324647069219,0 -99.25281567381603,19.37518189892326,0 -99.25418568453229,19.37649417514807,0 -99.25308214796914,19.3770987411689,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Licencia de Construcción No. LCE/IS/04/2011</name>
+			<description>Cablevisión: Instalación de Ductos en Vasco de Quiroga, Javier Barros Sierra, Fernando Espinoza, Carlos Lazo, Colonias La Fe, Paseo de las Lomas, Gral. Antonio Rosales, Tlayapaca y Peña Blanca, Delegación Álvaro Obregón</description>
+			<styleUrl>#msn_ylw-pushpin334</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-99.24244016328976,19.38061364658537,0 -99.24567502312753,19.37958715631199,0 -99.2479542349503,19.37885668580119,0 -99.247942199156,19.37869490995536,0 -99.24799078286797,19.37856360527153,0 -99.24806963669319,19.37844761922706,0 -99.24816401598945,19.37831733829438,0 -99.2476975162844,19.37764778739894,0 -99.24777999064531,19.37696735295237,0 -99.24958440820741,19.37529167388304,0 -99.25153547251061,19.37372577983103,0 -99.25198508804751,19.37330389561691,0 -99.25274650290544,19.37310290206082,0 -99.25320030925269,19.37268428104399,0 -99.25348763424611,19.37201748802769,0 -99.25360797910354,19.3711179733254,0 -99.25444895932689,19.36981329490644,0 -99.25476832850087,19.36933656346522,0 -99.25579804268811,19.36832397547336,0 -99.25663322626119,19.36749259983239,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Licencia de Construcción No. LCE/IS/04/2011</name>
+			<description>Cablevisión: Instalación de Ductos en Vasco de Quiroga, Javier Barros Sierra, Fernando Espinoza, Carlos Lazo, Colonias La Fe, Paseo de las Lomas, Gral. Antonio Rosales, Tlayapaca y Peña Blanca, Delegación Álvaro Obregón</description>
+			<styleUrl>#msn_ylw-pushpin315</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-99.25662881197118,19.36750681622792,0 -99.25710593613829,19.36729201854594,0 -99.25793864732501,19.36698836712575,0 -99.25857078546078,19.36658456184054,0 -99.259032541903,19.36607077667281,0 -99.26077167857844,19.36380899539323,0 -99.26218246507003,19.36172548635301,0 -99.26111677010564,19.36072570989758,0 -99.2606236037285,19.35816499491316,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Licencia de Construcción No. LCE/IS/04/2011</name>
+			<description>Cablevisión: Instalación de Ductos en Vasco de Quiroga, Javier Barros Sierra, Fernando Espinoza, Carlos Lazo, Colonias La Fe, Paseo de las Lomas, Gral. Antonio Rosales, Tlayapaca y Peña Blanca, Delegación Álvaro Obregón</description>
+			<styleUrl>#msn_ylw-pushpin292</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-99.25237208923906,19.37323321304084,0 -99.25286098648063,19.37527692859448,0 -99.25422319455569,19.37646378677209,0 -99.25305386162385,19.37710641420937,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Licencia de Construcción No. LCE/IS/04/2011</name>
+			<description>Cablevisión: Instalación de Ductos en Vasco de Quiroga, Javier Barros Sierra, Fernando Espinoza, Carlos Lazo, Colonias La Fe, Paseo de las Lomas, Gral. Antonio Rosales, Tlayapaca y Peña Blanca, Delegación Álvaro Obregón</description>
+			<styleUrl>#msn_ylw-pushpin284</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-99.24242542045177,19.38063439876984,0 -99.24328130828421,19.38030789966706,0 -99.24414937332207,19.38005438553684,0 -99.24486287608427,19.37983341023517,0 -99.24562908340992,19.3795988578541,0 -99.24630463290639,19.37930192169956,0 -99.2467344059414,19.37916221218574,0 -99.24696486936621,19.37904934546726,0 -99.2473928276855,19.37896564839846,0 -99.24792847186464,19.37885031555635,0 -99.24796237708236,19.37869839271912,0 -99.24806402352184,19.37845025169306,0 -99.24815704317979,19.3783220484633,0 -99.24772335736428,19.37775511556891,0 -99.24770462044837,19.37737539551362,0 -99.24780502768698,19.37696942320707,0 -99.24823079401031,19.37648004472727,0 -99.24870002372823,19.37610160656468,0 -99.24973513497753,19.37514758480069,0 -99.25095253991317,19.37422697566495,0 -99.25198781598692,19.37330723947355,0 -99.2527498511575,19.3731053234694,0 -99.25322097545052,19.37268606131996,0 -99.25350766962714,19.37197846783525,0 -99.2535938407794,19.37115790877875,0 -99.25389675728808,19.37055235631444,0 -99.25475021233233,19.36938759920264,0 -99.25566669824568,19.36845482010572,0 -99.25631220327269,19.36770676864334,0 -99.25677778418179,19.36739393008462,0 -99.25756482356036,19.36714202342169,0 -99.25831973851756,19.36677259900139,0 -99.25878166488975,19.36639395693509,0 -99.25919546565891,19.365902268434,0 -99.25979535292569,19.36513200023112,0 -99.26027611094902,19.36447684042268,0 -99.26110393579619,19.36337369119644,0 -99.26218223539992,19.36168447779624,0 -99.26167147483682,19.36129623673517,0 -99.26115402366378,19.36081923021695,0 -99.26106353083473,19.36028606971285,0 -99.2609098825006,19.35953071263035,0 -99.26076499084957,19.35873267777956,0 -99.26064038888671,19.35809704589346,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Licencia de Construcción No. 0068-07-11</name>
+			<description>Cablevisión: Obras de Canalización en la vía pública de fibra óptica y registros. Proyecto Denominado &quot;HUB Aragón&quot; en la Delegación Gustavo A. Madero</description>
+			<LookAt>
+				<longitude>-99.10915493196862</longitude>
+				<latitude>19.46715292910614</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003946099701550974</heading>
+				<tilt>0</tilt>
+				<range>1939.918354055057</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin114</styleUrl>
+			<Point>
+				<coordinates>-99.11032807795748,19.46621325462971,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

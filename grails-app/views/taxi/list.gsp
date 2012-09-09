@@ -34,6 +34,8 @@
 					
 						<g:sortableColumn property="tipo" title="${message(code: 'taxi.tipo.label', default: 'Tipo')}" />
 					
+						<g:sortableColumn property="vehiculo" title="${message(code: 'taxi.vehiculo.label', default: 'Vehiculo')}" />
+					
 					</tr>
 				</thead>
 				<tbody>
@@ -49,6 +51,8 @@
 						<td>${fieldValue(bean: taxiInstance, field: "sitioTaxi")}</td>
 					
 						<td>${fieldValue(bean: taxiInstance, field: "tipo")}</td>
+					
+						<td>${fieldValue(bean: taxiInstance, field: "vehiculo")}</td>
 					
 					</tr>
 				</g:each>

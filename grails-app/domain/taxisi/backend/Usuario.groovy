@@ -5,10 +5,13 @@ class Usuario  {
 
 	String nick
 	String password
+
+    String role
 	
 	static constraints = {
     	nick blank:false
-    	password blank:false 
+    	password blank:false
+        role inList: ['CHOFER','USUARIO']
     }
 
     String toString(){

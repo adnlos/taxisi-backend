@@ -68,6 +68,15 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${taxiInstance?.vehiculo}">
+				<li class="fieldcontain">
+					<span id="vehiculo-label" class="property-label"><g:message code="taxi.vehiculo.label" default="Vehiculo" /></span>
+					
+						<span class="property-value" aria-labelledby="vehiculo-label"><g:fieldValue bean="${taxiInstance}" field="vehiculo"/></span>
+					
+				</li>
+				</g:if>
+			
 			</ol>
 			<g:form>
 				<fieldset class="buttons">
